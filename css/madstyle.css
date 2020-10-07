@@ -45,3 +45,8 @@
     padding-left: 3px;
     padding-right: 3px;
 }
+
+.comment-props {
+    min-height: 200px;
+    overflow: scroll;
+}

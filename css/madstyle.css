@@ -50,3 +50,8 @@
     min-height: 200px;
     overflow: scroll;
 }
+
+.responsive-img {
+    max-width: 70%;
+    height: auto;
+  }

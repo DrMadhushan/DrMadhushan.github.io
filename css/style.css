@@ -323,8 +323,8 @@ nav ul li a {
 }
 
 .profile-pic img{
-  height: 100px;
-  width: 100px;
+    width: 100px;
+    height: 100px;
 }
 @media (min-width: 1000px){
   .cv-button-container {
@@ -334,8 +334,8 @@ nav ul li a {
     padding-bottom: 30px;
   }
   .profile-pic img{
-    height: 200px;
     width: 200px;
+    height: 200px;
   }
 }
 

@@ -180,7 +180,6 @@ p {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
 nav {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -200,7 +199,9 @@ nav {
   float: right;
   line-height: 32px;
   margin-bottom: 0;
-  padding-top: 15px;
+  padding-top: 9px;
+  /* align-items: center; */
+  
 }
 
 nav ul li {
@@ -230,8 +231,8 @@ nav ul li a {
 }
 
 .logo img {
-  width: 100px;
-  height: 50px;
+  width: 80px;
+  height: 100%;
 }
 
 .responsive {
@@ -248,7 +249,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/home-bg.jpg") repeat scroll center center / cover;
+  background: url("../images/home-bg2.jpg") repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
 }
@@ -276,7 +277,7 @@ nav ul li a {
   font-size: 18px;
   letter-spacing: 5px;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-transform: capitalize;
   color: #fff;
   font-weight: 500;
@@ -319,11 +320,20 @@ nav ul li a {
 }
 
 .cv-button-container {
-  padding-top: 50px;
+  padding-top: 10px;
+}
+
+
+@media (min-width: 1000px){
+  .cv-button-container {
+    padding-top: 50px;
+  }
+  .header-content p {
+    padding-bottom: 30px;
+  }
 }
 
 .cv-button {
-
   justify-content: center;
   flex-direction: column;
   text-align: center;
@@ -731,13 +741,25 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #contact {
+  color: white;
   height: auto;
   width: 100%;
-  background: #f7f7f7;
+  background: #313131;
+}
+
+#contact h3{
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#contact .right{
+  text-align: right;
 }
 
 .contact-details {
   list-style: none;
+  color: rgb(194, 194, 194);
   margin: 0;
   padding: 0;
 }
@@ -788,12 +810,13 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #f7f7f7;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  background: #313131;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 
 #footer .socials-media {
+  color: white;
   width: 100%;
 }
 

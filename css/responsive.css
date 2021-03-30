@@ -21,7 +21,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
   /* Navbar */
   nav {
-    padding: 10px 15px;
+    padding: 10px 10px;
   }
   .nav-menu {
     margin-top: 40px;
@@ -41,7 +41,7 @@
   }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 5px;
     display: block;
   }
   /* About */
@@ -83,6 +83,12 @@
     float: none;
     display: inline-block;
   }
+  #contact{
+    text-align: center;
+  }
+  #contact .right{
+    text-align: center;
+  }
 }
 
 /** Width between 767px to 0
@@ -94,6 +100,10 @@
   nav {
     padding: 20px 15px;
   }
+  /* nav .logo img{
+    width: 50px;
+    height: 100%;
+  } */
   .nav-menu {
     margin-top: 40px;
     display: none;
@@ -112,7 +122,7 @@
   }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 5px;
     display: block;
   }
   /* About */
@@ -154,6 +164,12 @@
     float: none;
     display: inline-block;
   }
+  #contact {
+    text-align: center;
+  }
+  #contact .right{
+    text-align: center;
+  }
 }
 
 /** Width between 600px to 0
@@ -183,7 +199,7 @@
   }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 5px;
     display: block;
   }
   /* About */
@@ -225,6 +241,12 @@
     float: none;
     display: inline-block;
   }
+  #contact {
+    text-align: center;
+  }
+  #contact .right{
+    text-align: center;
+  }
 }
 
 /** Width between 480px to 0
@@ -254,7 +276,7 @@
   }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 5px;
     display: block;
   }
   /* About */
@@ -295,6 +317,12 @@
     float: none;
     display: inline-block;
   }
+  #contact {
+    text-align: center;
+  }
+  #contact .right{
+    text-align: center;
+  }
 }
 
 /** Width between 320px to 0
@@ -324,7 +352,7 @@
   }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 5px;
     display: block;
   }
   /* About */
@@ -369,5 +397,11 @@
   .entry-comments-body span {
     display: inline-block;
     margin-right: 0;
+  }
+  #contact {
+    text-align: center;
+  }
+  #contact .right{
+    text-align: center;
   }
 }

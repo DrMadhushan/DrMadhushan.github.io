@@ -21,15 +21,15 @@
   * Open arduino > connect board to PC > Tools > Board, Port (Select the correct one)
   * In your case it can be Arduino Uno and COM port x (x will be different for each)
 
-  <img src="C:\Users\drmad\AppData\Roaming\Typora\typora-user-images\image-20210727231601535.png" alt="image-20210727231601535" style="zoom:75%;" />
+  <img src="guide\img\1.png" alt="image-20210727231601535" style="zoom:75%;" />
 
   * Sketch > Include Library > Firmata (will open Firmata library file)
 
-    <img src="C:\Users\drmad\AppData\Roaming\Typora\typora-user-images\image-20210727231650910.png" alt="image-20210727231650910" style="zoom:100%;" />
+    <img src="guide\img\2.png" alt="image-20210727231650910" style="zoom:100%;" />
 
   * Compile and upload that file to your Arduino board
 
-    <img src="C:\Users\drmad\AppData\Roaming\Typora\typora-user-images\image-20210727232354768.png" alt="image-20210727232354768" style="zoom:150%;" />
+    <img src="guide\img\3.png" alt="image-20210727232354768" style="zoom:150%;" />
 
 #### Auto Desk - Auto CAD Download
 

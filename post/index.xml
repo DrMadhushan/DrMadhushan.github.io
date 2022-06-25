@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Madhushan Ramalingam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Mar 2022 21:47:41 +0000</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>பிரான்சிய புரட்சி</title>
+      <link>https://example.com/post/french_revolution/</link>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/french_revolution/</guid>
+      
+        <description>An intellectual poem in tamil tells about the history of French revolution in 1789</description>
+      
+    </item>
+    
     <item>
       <title>The Notice Shortcode</title>
       <link>https://example.com/post/notice-shortcode/</link>

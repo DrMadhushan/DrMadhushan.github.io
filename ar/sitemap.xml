@@ -3,7 +3,68 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/ar/english/</loc>
-    <lastmod>2022-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/ar/</loc>
+    <lastmod>2022-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://example.com/ar/"
+                />
+  </url><url>
+    <loc>https://example.com/ar/tags/poem/</loc>
+    <lastmod>2022-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/tags/poem/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://example.com/ar/tags/poem/"
+                />
+  </url><url>
+    <loc>https://example.com/ar/english/post/</loc>
+    <lastmod>2022-06-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/ar/tags/</loc>
+    <lastmod>2022-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://example.com/ar/tags/"
+                />
+  </url><url>
+    <loc>https://example.com/ar/tags/%E0%AE%A4%E0%AE%AE%E0%AE%BF%E0%AE%B4%E0%AF%8D/</loc>
+    <lastmod>2022-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/tags/%E0%AE%A4%E0%AE%AE%E0%AE%BF%E0%AE%B4%E0%AF%8D/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://example.com/ar/tags/%E0%AE%A4%E0%AE%AE%E0%AE%BF%E0%AE%B4%E0%AF%8D/"
+                />
+  </url><url>
+    <loc>https://example.com/ar/english/post/french_revolution/</loc>
+    <lastmod>2022-06-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/ar/english/about/</loc>
+    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/ar/tamil/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
@@ -20,19 +81,6 @@
     <loc>https://example.com/ar/tamil/certifications/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/ar/</loc>
-    <lastmod>2022-04-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/"
-                />
-  </url><url>
     <loc>https://example.com/ar/tags/demo/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
     <xhtml:link
@@ -46,9 +94,6 @@
                 href="https://example.com/ar/tags/demo/"
                 />
   </url><url>
-    <loc>https://example.com/ar/english/post/</loc>
-    <lastmod>2022-03-18T21:47:41+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/ar/tags/shortcode/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
     <xhtml:link
@@ -60,19 +105,6 @@
                 rel="alternate"
                 hreflang="ar"
                 href="https://example.com/ar/tags/shortcode/"
-                />
-  </url><url>
-    <loc>https://example.com/ar/tags/</loc>
-    <lastmod>2022-03-18T21:47:41+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/tags/"
                 />
   </url><url>
     <loc>https://example.com/ar/english/post/notice-shortcode/</loc>
@@ -357,9 +389,6 @@
                 hreflang="ar"
                 href="https://example.com/ar/tags/thumbnail/"
                 />
-  </url><url>
-    <loc>https://example.com/ar/english/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/ar/tamil/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>

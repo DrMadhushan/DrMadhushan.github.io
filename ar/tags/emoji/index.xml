@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/ar/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emoji Support</title>
-      <link>https://example.com/ar/english/post/emoji-support/</link>
+      <link>https://example.com/ar/english/dummyblogs/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/ar/english/post/emoji-support/</guid>
+      <guid>https://example.com/ar/english/dummyblogs/emoji-support/</guid>
       
         <description>Guide to emoji usage in Hugo</description>
       

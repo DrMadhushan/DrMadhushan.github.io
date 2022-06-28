@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/ar/tags/thumbnail/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide to Thumbnails in Hugo</title>
-      <link>https://example.com/ar/english/post/image-test/</link>
+      <link>https://example.com/ar/english/dummyblogs/image-test/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/ar/english/post/image-test/</guid>
+      <guid>https://example.com/ar/english/dummyblogs/image-test/</guid>
       
         <description>Guide to Thumbnails in Hugo</description>
       

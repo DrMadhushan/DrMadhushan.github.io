@@ -6,136 +6,48 @@
     <description>Recent content in Posts on Madhushan Ramalingam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/ar/english/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/ar/english/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to make custom html form interface with Google form as backend</title>
+      <link>https://example.com/ar/english/post/google_form_for_html_contact_form/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/ar/english/post/google_form_for_html_contact_form/</guid>
+      
+        <description>Google form is one of the powerful tool to collect information, conduct survey and any dumb work you can do with form filling.</description>
+      
+    </item>
+    
+    <item>
+      <title>அழுக்காய் வாழும் நாம்</title>
+      <link>https://example.com/ar/english/post/%E0%AE%85%E0%AE%B4%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AF%8D_%E0%AE%B5%E0%AE%BE%E0%AE%B4%E0%AF%81%E0%AE%AE%E0%AF%8D_%E0%AE%A8%E0%AE%BE%E0%AE%AE%E0%AF%8D/</link>
+      <pubDate>Sat, 12 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/ar/english/post/%E0%AE%85%E0%AE%B4%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AF%8D_%E0%AE%B5%E0%AE%BE%E0%AE%B4%E0%AF%81%E0%AE%AE%E0%AF%8D_%E0%AE%A8%E0%AE%BE%E0%AE%AE%E0%AF%8D/</guid>
+      
+        <description>An short poem written to tell how dignified is the working community</description>
+      
+    </item>
+    
     <item>
       <title>பிரான்சிய புரட்சி</title>
-      <link>https://example.com/ar/english/post/french_revolution/</link>
-      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
+      <link>https://example.com/ar/english/post/%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%A9%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF_%E0%AE%AA%E0%AF%81%E0%AE%B0%E0%AE%9F%E0%AF%8D%E0%AE%9A%E0%AE%BF/</link>
+      <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/ar/english/post/french_revolution/</guid>
+      <guid>https://example.com/ar/english/post/%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%A9%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF_%E0%AE%AA%E0%AF%81%E0%AE%B0%E0%AE%9F%E0%AF%8D%E0%AE%9A%E0%AE%BF/</guid>
       
         <description>An intellectual poem in tamil tells about the history of French revolution in 1789</description>
       
     </item>
     
     <item>
-      <title>The Notice Shortcode</title>
-      <link>https://example.com/ar/english/post/notice-shortcode/</link>
-      <pubDate>Fri, 18 Mar 2022 21:47:41 +0000</pubDate>
+      <title>வறுமை</title>
+      <link>https://example.com/ar/english/post/%E0%AE%B5%E0%AE%B1%E0%AF%81%E0%AE%AE%E0%AF%88/</link>
+      <pubDate>Mon, 25 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/ar/english/post/notice-shortcode/</guid>
+      <guid>https://example.com/ar/english/post/%E0%AE%B5%E0%AE%B1%E0%AF%81%E0%AE%AE%E0%AF%88/</guid>
       
-        <description>The notice shortcode supports three different types of disclaimers. These are as following:</description>
-      
-    </item>
-    
-    <item>
-      <title>Series Part 2</title>
-      <link>https://example.com/ar/english/post/series-part-2/</link>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/ar/english/post/series-part-2/</guid>
-      
-        <description>A brief guide to how to setup series part 2</description>
-      
-    </item>
-    
-    <item>
-      <title>Series Part 1</title>
-      <link>https://example.com/ar/english/post/series-part-1/</link>
-      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/ar/english/post/series-part-1/</guid>
-      
-        <description>A brief guide to how to setup series part 1</description>
-      
-    </item>
-    
-    <item>
-      <title>Redirect</title>
-      <link>https://example.com/ar/english/post/redirect/</link>
-      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/ar/english/post/redirect/</guid>
-      
-        <description>Usage of redirectUrl</description>
-      
-    </item>
-    
-    <item>
-      <title>The Figure Shortcode</title>
-      <link>https://example.com/ar/english/post/figure-shortcode/</link>
-      <pubDate>Sat, 13 Mar 2021 21:47:41 +0000</pubDate>
-      
-      <guid>https://example.com/ar/english/post/figure-shortcode/</guid>
-      
-        <description>Hugo has figure shortcode built-in, so you can easily add figure captions or hyperlink rel attributes to images.</description>
-      
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://example.com/ar/english/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/ar/english/post/markdown-syntax/</guid>
-      
-        <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-      
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://example.com/ar/english/post/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/ar/english/post/rich-content/</guid>
-      
-        <description>A brief description of Hugo Shortcodes</description>
-      
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://example.com/ar/english/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/ar/english/post/placeholder-text/</guid>
-      
-        <description>Lorem Ipsum Dolor Si Amet</description>
-      
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://example.com/ar/english/post/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/ar/english/post/math-typesetting/</guid>
-      
-        <description>A brief guide to setup KaTeX</description>
-      
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://example.com/ar/english/post/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/ar/english/post/emoji-support/</guid>
-      
-        <description>Guide to emoji usage in Hugo</description>
-      
-    </item>
-    
-    <item>
-      <title>Guide to Thumbnails in Hugo</title>
-      <link>https://example.com/ar/english/post/image-test/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/ar/english/post/image-test/</guid>
-      
-        <description>Guide to Thumbnails in Hugo</description>
+        <description>Rich gets richer poor gets poorer&amp;hellip;. why? The system wants to keep the troubles!</description>
       
     </item>
     

@@ -36,6 +36,77 @@
     <loc>https://example.com/ar/tamil/certifications/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.com/ar/tags/accountability/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/tags/accountability/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://example.com/ar/tags/accountability/"
+                />
+  </url><url>
+    <loc>https://example.com/ar/english/post/accountability-first-innovation-next/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/ar/tags/curiosity/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/tags/curiosity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://example.com/ar/tags/curiosity/"
+                />
+  </url><url>
+    <loc>https://example.com/ar/tags/innovation/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/tags/innovation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://example.com/ar/tags/innovation/"
+                />
+  </url><url>
+    <loc>https://example.com/ar/english/post/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/ar/tags/responsibility/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/tags/responsibility/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://example.com/ar/tags/responsibility/"
+                />
+  </url><url>
+    <loc>https://example.com/ar/tags/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://example.com/ar/tags/"
+                />
+  </url><url>
     <loc>https://example.com/ar/tags/demo/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
     <xhtml:link
@@ -60,19 +131,6 @@
                 rel="alternate"
                 hreflang="ar"
                 href="https://example.com/ar/tags/shortcode/"
-                />
-  </url><url>
-    <loc>https://example.com/ar/tags/</loc>
-    <lastmod>2022-03-18T21:47:41+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/tags/"
                 />
   </url><url>
     <loc>https://example.com/ar/english/dummyblogs/notice-shortcode/</loc>
@@ -132,9 +190,6 @@
                 hreflang="ar"
                 href="https://example.com/ar/tags/htmlpage/"
                 />
-  </url><url>
-    <loc>https://example.com/ar/english/post/</loc>
-    <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/ar/series/</loc>
     <lastmod>2021-08-15T00:00:00+00:00</lastmod>

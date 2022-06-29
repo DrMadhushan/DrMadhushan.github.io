@@ -8,6 +8,17 @@
     <language>en</language>
     <lastBuildDate>Fri, 18 Mar 2022 21:47:41 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Awards &amp; Achievements</title>
+      <link>https://example.com/awards/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/awards/</guid>
+      
+        <description>A list of awards I was honored with and my achievements</description>
+      
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://example.com/about/</link>
       <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
@@ -19,24 +30,13 @@
     </item>
     
     <item>
-      <title>Awards</title>
-      <link>https://example.com/awards/</link>
-      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/awards/</guid>
-      
-        <description>Hugo Awards, an annual literary award for the best science fiction or fantasy works</description>
-      
-    </item>
-    
-    <item>
       <title>Certifications</title>
       <link>https://example.com/certifications/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/certifications/</guid>
       
-        <description>Hugo Certifications</description>
+        <description>Certifications</description>
       
     </item>
     

@@ -1,0 +1,12 @@
+# Ruby Gems
+*.gem
+
+# Design Files
+*.psd
+*.ai
+
+# IntelliJ
+.idea
+
+/.github
+/rubbish

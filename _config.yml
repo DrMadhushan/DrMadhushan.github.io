@@ -1,8 +1,9 @@
 ### Site Settings ###
 title: DrMadhushan
 head: Ⲙⲁⲇⲏ𐌵𝛓ⲏⲁⲛ Ꞅⲁⲙⲁ𝓵ⲓⲛ𝓰ⲁⲙ
-description: >-
-  Learn, Apply, Fail, Fix, Improvise\nLife in an agile cycle!
+description: >
+  Learn, Apply, Fail, Fix, Improvise <br>
+  Life in an agile cycle!
 baseurl: "" # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository: drmadhushan.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme: YoussefRaafatNasry/portfolYOU
@@ -23,6 +24,8 @@ nav_exclude: # The following paths are excluded from navbar
 author:
   name: Madhushan
   image: /assets/profile.png
+  about-image: /assets/about-image.png
+  resume: /public/docs/resume_madhushan.pdf
   # behance: drmadhushan
   # dribbble          : your_username
   email: drmadhushan@gmail.com

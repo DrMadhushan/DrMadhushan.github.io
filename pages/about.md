@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Madhushan | About
+title: About
 permalink: /about/
 weight: 3
 ---

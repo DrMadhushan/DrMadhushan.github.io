@@ -1,17 +1,33 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- title: Software Engineer, Google, UK
-  from: 2018
+- title: Undergraduate, University of Peradeniya
+  from: 2019
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Following BSc Computer engineering degree
+
+- title: Casual Instructor, University of Peradeniya
+  from: 2020
+  to: present
+  description:
+    Assisted lecturers to conduct labs for computer engineering courses -
+    Computing, Computer Communication Networks.
+
+- title: Web Consultation Team, University of Peradeniya
+  from: 2020
+  to: present
+  description:
+    Worked as a Member-in-Charge for Student Profiles in the university. Worked as a team to address the problems in university web ranking.
+    Analyzed and suggested SEO and web quality enhancement guidelines to Gulf University Sanad, Bahrain.
+
+- title: Team Leader | iGT, AIESEC in Kandy
+  from: 2020
+  to: 2021
+  description:
+    Conducted business proposal pitches and product explaination pitches for schools and companies in Sri Lanka.
+    Signed partnerships with Sun British College, Vavuniya for Global teacher.
+    Lead a team to achieve weekly and monthly targets on customer realizations
+
+- title: Food Service Distributor, DSP Kandy Marketing
+  from: 2017
+  to: 2018
+  description:
+    Assisted as a service distributor for a range of products of C.W. Mackie PLC
+    Interacted with multiple layers of customer hierarchy in hospitality system in Sri Lanka

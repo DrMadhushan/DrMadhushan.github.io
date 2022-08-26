@@ -1,11 +1,31 @@
-- name: HTML5/CSS3
+- name: Python
   percentage: 90
   color: danger
 
-- name: Go
-  percentage: 80
+- name: Java
+  percentage: 85
   color:
 
-- name: Python
+- name: JavaScript
   percentage: 70
   color: secondary
+
+- name: C Language
+  percentage: 80
+  color: success
+
+- name: MySQL
+  percentage: 85
+  color: warning
+
+- name: HTML/CSS
+  percentage: 65
+  color: secondary
+
+- name: Backend Frameworks (Django, Express)
+  percentage: 75
+  color: danger
+
+- name: Desktop App Frameworks (JavaFX, Electron)
+  percentage: 70
+  color: primary

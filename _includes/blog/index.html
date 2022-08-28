@@ -1,7 +1,9 @@
 <div class="card-group mt-2">
 
   {% for post in site.posts %}
-    {% include blog/post-card.html %}
+    {% if post.draft != true %}
+      {% include blog/post-card.html %}
+    {% endif %}
   {% endfor %}
   
 </div>

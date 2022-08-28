@@ -1,5 +1,6 @@
 ---
 title: How to undo your git failure?
+draft: true
 tags: [External Post, Git]
 style: fill
 color: warning

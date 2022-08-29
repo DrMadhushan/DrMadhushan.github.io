@@ -21,12 +21,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Blog">
-  <meta property="og:description" content="Learn, Apply, Fail, Fix, Improvise  Life in an agile cycle!">
+  <meta property="og:title" content="How to make custom html form interface with Google form as backend">
+  <meta property="og:description" content="What if you can host a form without any backend support but with high information security with very few html lines of code at no cost?">
   <meta property="og:image" content="/assets/profile.png">
 
-  <title>Blog</title>
-  <meta name="description" content="Learn, Apply, Fail, Fix, Improvise  Life in an agile cycle!">
+  <title>How to make custom html form interface with Google form as backend</title>
+  <meta name="description" content="What if you can host a form without any backend support but with high information security with very few html lines of code at no cost?">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -72,75 +72,59 @@
   </div>
 
 </nav>
-    <!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1><b>How to make custom html form interface with Google form as backend</b></h1>
 
-<div class="input-group mt-5 px-3">
-  <input id="search-input" type="text" class="form-control search-box" placeholder="Search posts..">
-  <div class="input-group-append">
-    <span class="input-group-text border border-primary bg-primary text-white">
-      <i class="fas fa-search"></i>
-    </span>
-  </div>
-  <button class="btn btn-outline-primary ml-1" onclick="location.href = '/blog/tags';">
-    <i class="fas fa-tags"></i>
-  </button>
-</div>
-<ul class="px-3" id="results-container"></ul>
+<p class="post-metadata text-muted">
+  20 December 2021 -  
+  <b>2 mins read time</b>
 
-<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
-<script>
-  var sjs = SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action">{title}</a>',
-        noResultsText: '<li class="list-group-item list-group-item-action disabled">No results found</li>',
-        json: '/search.json'
-      })
-</script>
-<div class="card-group mt-2">
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#google-form">
+      <span class="tag badge badge-pill text-primary border border-primary">Google form</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#html">
+      <span class="tag badge badge-pill text-primary border border-primary">HTML</span>
+    </a>
+    </p>
 
+<p>Google form is one of the powerful tool to collect information, conduct survey and any dumb work you can do with form filling. During this work and learn from home era, almost every organisation has shared at least an online form and everyone of you would have filled at least 5 forms. In your organisation or in your educational institute you would have think about sharing custom forms those are customised with branding, custom URL and funky things. Other than Google Forms there are many e-form tools are available to fulfil such expectations at a considerable cost. You can still use your self served forms to collect data as well. Most of the times you might need to do some backend coding to enable form inputs in your website. What if you can host a form without any backend support but with high information security with very few html lines of code at no cost?</p>
+
+<hr />
+
+<p>Follow these steps to provide your own frontend interface to your customers and collect the data to a google form response. Let us create a basic event registration form:</p>
+
+<ol>
+  <li>Create a google form with required fields but without authentication. -I.e. not enabling one response per email account.
+<img src="/assets/images/blog/googleForm/b1_2.png" alt="" /></li>
+  <li>Create your own html form with same fields with any other custom styles.
+<img src="/assets/images/blog/googleForm/b1_1.png" alt="" /></li>
+  <li>Inspect your google form page and search for keyword “entry.” using <code class="language-plaintext highlighter-rouge">ctrl+f</code> or <code class="language-plaintext highlighter-rouge">cmd+f</code>.</li>
+  <li>Copy your action url in the form code and give it as the form action=’’ attribute.</li>
+  <li>You will find a set of hidden input fields as well.
+<img src="/assets/images/blog/googleForm/b1_6.png" alt="" /></li>
+  <li>
+    <p>Copy the name attribute of those input fields and include the same in your custom html form like this.
+ <img src="/assets/images/blog/googleForm/b1_8.png" alt="" />
+ Now we have worked upto getting the google form’s work done.</p>
+  </li>
+  <li>Now if you fill and register (‘submit’) your custom html form, you will get the responses in your google form responses. 
+ <img src="/assets/images/blog/googleForm/b1_9.png" alt="" />
+ but, once you submit the page will automaatically opens the google form’s after-submission page like this,</li>
+  <li>Redirecting to another domain is not a positive thing to your brand. So to overcome this issue you have to create a hidden iframe and load that response page (the one you see in the above image) inside that iframe. Add these lines of code in your form page;
+<img src="/assets/images/blog/googleForm/b1_10.png" alt="" />
+Thats it we are done!
+I have added some after-submission properties for the custom html form. So you can provide your customer with a decent custom response after they submit their inputs.</li>
+</ol>
+
+
+
+<div class="pt-5">
   
-    
-      <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/blog/accountable-innovation" class="post card border border-info">
-    <div class="card-body text-themed">
-      <h3 class="card-title">Accountability first Innovation next</h3>
-      <p class="card-text">
-        
-        <span class="badge badge-info">Innovation</span>
-        
-      </p>
-      <p class="card-text">Learn, explore and innovate but always be responsible and accountable while bringing them to reality.</p>
-    </div>
-    <div class="card-footer text-themed">
-      25 March 2022
-    </div>
-  </a>
 </div>
-    
-  
-    
-      <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/blog/google-form-for-html-contact-form" class="post card border border-primary">
-    <div class="card-body text-themed">
-      <h3 class="card-title">How to make custom html form interface with Google form as backend</h3>
-      <p class="card-text">
-        
-        <span class="badge badge-primary">Google form</span>
-        
-        <span class="badge badge-primary">HTML</span>
-        
-      </p>
-      <p class="card-text">What if you can host a form without any backend support but with high information security with very few html lines of code at no cost?</p>
-    </div>
-    <div class="card-footer text-themed">
-      20 December 2021
-    </div>
-  </a>
-</div>
-    
-  
-  
+
 </div>
   </main>
   <footer class="mt-auto py-3 text-center">

@@ -2,7 +2,7 @@
 name: Smart Inventory System
 show: true
 tools: [php, Node JS, Laravel, Electron]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: Maker Mate is a system which assits the makers in computer engineering department. It consists an information console, pickup locker and an inventory management system.The console shows the details about the tools and equipments in the labrotary and also the web version can be accessed from anywhere.
+image: https://thumbs.dreamstime.com/b/self-machine-service-kiosk-airport-check-printing-boarding-pass-buying-ticket-self-service-machine-desk-kiosk-236208351.jpg
+description: Maker Mate is a system which assits the makers in the computer engineering department's Maker-Space Laboratory.
 external_url: https://github.com/cepdnaclk/e17-3yp-maker-mate
 ---

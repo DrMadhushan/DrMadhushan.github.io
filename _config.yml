@@ -18,6 +18,7 @@ nav_exclude: # The following paths are excluded from navbar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
+  - pages/resources.html
   - documentation/partials/** # For Documentation Only
 
 ### Author Info ###

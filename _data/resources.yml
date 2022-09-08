@@ -1,0 +1,7 @@
+- name: CO321 - End Semester Exam Papers
+  link: https://www.google.com
+  source: google
+
+- name: CO322 - End Semester Exam Papers
+  link: https://www.google.com
+  source: github

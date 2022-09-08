@@ -1,0 +1,8 @@
+<div class="mt-2 container">
+    <h2 class="mb-3">{{ include.title }}</h2>
+    <div class="d-flex flex-column">
+        {% for resource in site.data.resources %}   
+                {% include resources/resource-card.html %}
+        {% endfor %}
+    </div>
+</div>

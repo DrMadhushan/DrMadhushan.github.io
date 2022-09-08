@@ -1,0 +1,12 @@
+<div class="wow animated fadeIn w-100 mt-2 shadow-sm" data-wow-delay=".15s">
+    <a href="{{ resource.link }}" class="post card d-flex flex-row border border-info text-themed" style="text-decoration:none;">
+        <div class="h5 mt-2">
+            {% if resource.source == "google" %}
+                <i class="bi bi-google"></i>
+            {% else %}
+                <i class="bi bi-github"></i>
+            {% endif %}
+        </div>
+        <div class="m-2" style="padding-left: 10px;">{{ resource.name }}</div>
+    </a>
+</div>

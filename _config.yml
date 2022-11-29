@@ -1,6 +1,6 @@
 ### Site Settings ###
 title: Ⲙⲁⲇⲏ𐌵𝛓ⲏⲁⲛ
-head: Ⲙⲁⲇⲏ𐌵𝛓ⲏⲁⲛ Ꞅⲁⲙⲁ𝓵ⲓⲛ𝓰ⲁⲙ
+head: Madhushan Ramalingam
 description: >
   Learn, Apply, Fail, Fix, Improvise <br>
   Life in an agile cycle!
@@ -8,6 +8,7 @@ baseurl: "" # Change to empty quotes if you are hosting your site at <your-usern
 repository: drmadhushan.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme: YoussefRaafatNasry/portfolYOU
 open_new_tab: true # Opens external URLs in new tab (works for posts, projects and navbar only)
+keywords: drdhushan, drmadhushan, DrMadhushan, Mahdushan, Madhu, Ramalingam, Madhushan Ramalingam, University of Peradeniya, Kandy, Python, Artificial Intelligence, Webteam, Computer Engineering
 
 ### Plugins ###
 plugins:
@@ -16,6 +17,7 @@ plugins:
 ### Navbar Settings ###
 nav_exclude: # The following paths are excluded from navbar
   - pages/tags.html
+  - pages/scholarships.html
   - pages/404.html
   - pages/index.md
   - pages/resources.html

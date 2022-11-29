@@ -22,12 +22,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Coding Like Vincent Van Gogh">
-  <meta property="og:description" content="Show some support by following me!">
+  <meta property="og:title" content="Scholarships">
+  <meta property="og:description" content="Learn, Apply, Fail, Fix, Improvise  Life in an agile cycle!">
   <meta property="og:image" content="/assets/profile.png">
   
-  <title>Coding Like Vincent Van Gogh</title>
-  <meta name="description" content="Show some support by following me!">
+  <title>Scholarships</title>
+  <meta name="description" content="Learn, Apply, Fail, Fix, Improvise  Life in an agile cycle!">
   <meta name="keywords" content="drdhushan, drmadhushan, DrMadhushan, Mahdushan, Madhu, Ramalingam, Madhushan Ramalingam, University of Peradeniya, Kandy, Python, Artificial Intelligence, Webteam, Computer Engineering">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
@@ -67,7 +67,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
 
       <a class="nav-item nav-link " href="/blog/">Blog</a>
 
@@ -80,9 +80,75 @@
   </div>
 
 </nav>
-    <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  
+    <!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
 
+<div class="input-group mt-5 px-3">
+  <input id="search-input" type="text" class="form-control search-box" placeholder="Search posts..">
+  <div class="input-group-append">
+    <span class="input-group-text border border-primary bg-primary text-white">
+      <i class="fas fa-search"></i>
+    </span>
+  </div>
+  <button class="btn btn-outline-primary ml-1" onclick="location.href = '/blog/tags';">
+    <i class="fas fa-tags"></i>
+  </button>
+</div>
+<ul class="px-3" id="results-container"></ul>
+
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action">{title}</a>',
+        noResultsText: '<li class="list-group-item list-group-item-action disabled">No results found</li>',
+        json: '/search.json'
+      })
+</script>
+<div class="card-group mt-2">
+
+  
+    
+      <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/blog/accountable-innovation" class="post card border border-info">
+    <div class="card-body text-themed">
+      <h3 class="card-title">Accountability first Innovation next</h3>
+      <p class="card-text">
+        
+        <span class="badge badge-info">Innovation</span>
+        
+      </p>
+      <p class="card-text">Learn, explore and innovate but always be responsible and accountable while bringing them to reality.</p>
+    </div>
+    <div class="card-footer text-themed">
+      25 March 2022
+    </div>
+  </a>
+</div>
+    
+  
+    
+      <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/blog/google-form-for-html-contact-form" class="post card border border-primary">
+    <div class="card-body text-themed">
+      <h3 class="card-title">How to make custom html form interface with Google form as backend</h3>
+      <p class="card-text">
+        
+        <span class="badge badge-primary">Google form</span>
+        
+        <span class="badge badge-primary">HTML</span>
+        
+      </p>
+      <p class="card-text">What if you can host a form without any backend support but with high information security with very few html lines of code at no cost?</p>
+    </div>
+    <div class="card-footer text-themed">
+      20 December 2021
+    </div>
+  </a>
+</div>
+    
+  
+  
 </div>
   </main>
   <footer class="mt-auto py-3 text-center">

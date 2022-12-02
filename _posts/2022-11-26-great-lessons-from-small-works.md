@@ -6,7 +6,7 @@ thumb: /assets/images/blog/Great_lessons_from_small_works/b3_3.jpeg
 # style: fill
 color: success
 comments: true
-description: Learn, explore and innovate but always be responsible and accountable while bringing them to reality.
+description: Projects are best way to learn the practical aspects of theoretical engineering stuff. Getting hands wet developing software and design hardware systems gives more confident and experience.
 ---
 
 > Experience is the teacher of all things - _Julius Caesar_

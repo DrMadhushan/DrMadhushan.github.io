@@ -5,17 +5,17 @@ permalink: /about/
 weight: 3
 ---
 
-# **About Me**
+# **Bits of Me**
 <div class="d-flex">
     <img width=200 src="{{ site.author.image }}" alt="{{ site.title }}" class="img-responsive wow animated zoomIn" data-wow-delay=".1s">
 </div>
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-Am a Sri Lankan-based engineering individual who loves the business picture of his work. I love to learn computer engineering concepts and apply them to solve real-world problems. For that, I prefer good work over smart work and hard work for sustainable success. It makes me an excellent long-term planner. Fun and comedy drive me and relieve my stress, but I am serious at work.
+Am a Sri Lankan engineer and data science researcher who’s passionate about using technology to create meaningful impact. I enjoy exploring computer engineering concepts and turning them into solutions for real-world challenges, especially where they intersect with people, communities, and long-term change. I believe in steady, thoughtful work that drives sustainable success, and I approach problems with both a planner’s mindset and a curiosity for learning. Humor and creativity keep me grounded, but when it comes to work, I’m deeply committed and focused.
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/publications.html title="Publications" source=site.data.publications %}
+<!-- {% include about/skills.html title="Other Skills" source=site.data.other-skills %} -->
 </div>
 <!-- 
 <div class="row">

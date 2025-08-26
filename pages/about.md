@@ -14,8 +14,13 @@ Hi I am **{{ site.author.name }}** :wave:,<br>
 Am a Sri Lankan engineer and data science researcher who’s passionate about using technology to create meaningful impact. I enjoy exploring computer engineering concepts and turning them into solutions for real-world challenges, especially where they intersect with people, communities, and long-term change. I believe in steady, thoughtful work that drives sustainable success, and I approach problems with both a planner’s mindset and a curiosity for learning. Humor and creativity keep me grounded, but when it comes to work, I’m deeply committed and focused.
 
 <div class="row">
-{% include about/publications.html title="Publications" source=site.data.publications %}
+    {% include about/publications.html title="Publications" source=site.data.publications %}
 <!-- {% include about/skills.html title="Other Skills" source=site.data.other-skills %} -->
+</div>
+<div class="row">
+    <div class="col-12">
+        {% include about/calendar.html title="Calendar" %}
+    </div>
 </div>
 <!-- 
 <div class="row">

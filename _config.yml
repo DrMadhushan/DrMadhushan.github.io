@@ -10,6 +10,8 @@ remote_theme: YoussefRaafatNasry/portfolYOU
 open_new_tab: true # Opens external URLs in new tab (works for posts, projects and navbar only)
 keywords: drdhushan, drmadhushan, DrMadhushan, Mahdushan, Madhu, Ramalingam, Madhushan Ramalingam, University of Peradeniya, Kandy, Python, Artificial Intelligence, Webteam, Computer Engineering
 
+calendar_url: https://calendar.google.com/calendar/embed?src=f285a29e3585e59ccb4b43434478e114cb89fc3480ca703ec604e01f5cdf4a28%40group.calendar.google.com&ctz=Asia%2FColombo
+
 ### Plugins ###
 plugins:
   - jemoji

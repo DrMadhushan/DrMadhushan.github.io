@@ -45,7 +45,7 @@ font_serif: "'Source Serif 4', 'Georgia', serif"
 font_sans: "'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif"
 
 social:
-  scholar: "https://scholar.google.com/"
-  github: "https://github.com/"
-  linkedin: "https://www.linkedin.com/"
-  cv: "/assets/cv.pdf"
+  scholar: "https://scholar.google.com/citations?user=ooGmN3kAAAAJ&hl=en"
+  github: "https://github.com/DrMadhushan"
+  linkedin: "https://linkedin.com/in/madhushan-ramalingam/"
+  cv: "/assets/docs/cv.pdf"

@@ -4,8 +4,6 @@ layout: page
 permalink: /research/
 ---
 
-Below are sample projects. Add, edit, or remove files in `_research/` to update this list.
-
 <div class="grid">
   {% assign projects = site.research | sort: 'priority' %}
   {% for project in projects %}

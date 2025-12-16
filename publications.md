@@ -4,8 +4,6 @@ layout: page
 permalink: /publications/
 ---
 
-Sample citations shown below. Manage entries via `_publications/` with status fields like `Published`, `Preprint`, or `Under Review`.
-
 <div class="grid">
   {% assign pubs = site.publications | sort: 'year' | reverse %}
   {% for pub in pubs %}

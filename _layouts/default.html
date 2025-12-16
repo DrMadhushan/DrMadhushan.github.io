@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <input type="checkbox" id="sidebar-toggle" class="sidebar-toggle">
+  <div class="page">
+    <aside class="sidebar">
+      {% include sidebar.html %}
+    </aside>
+    <main class="content">
+      <div class="top-nav">
+        <span class="top-nav-brand">{{ site.short_name | default: site.title }}</span>
+        <div class="top-nav-links">
+          {% for item in site.data.navigation %}
+            <a href="{{ item.url | relative_url }}" class="{% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      {{ content }}
+      <footer class="footer">
+        <p>Last updated {{ site.time | date: "%Y" }} · Built with Jekyll.</p>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

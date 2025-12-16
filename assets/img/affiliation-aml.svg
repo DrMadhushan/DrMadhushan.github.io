@@ -1,0 +1,7 @@
+<svg width="140" height="48" viewBox="0 0 140 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="140" height="48" rx="10" fill="#0F3057" />
+  <path d="M18 32L28 16L38 32H32L28 25L24 32H18Z" fill="#E8F1F8"/>
+  <path d="M44 16H52L60 32H52L44 16Z" fill="#E8F1F8"/>
+  <path d="M66 16H72V32H66V16Z" fill="#E8F1F8"/>
+  <text x="82" y="29" fill="#E8F1F8" font-family="Arial" font-size="14" font-weight="600">AML</text>
+</svg>

@@ -1,0 +1,51 @@
+title: "Madhushan Ramalingam — Computer Scientist"
+short_name: Madhushan
+description: "Researcher in AI/ML with interests in scalable learning systems."
+baseurl: ""
+url: "https://drmadhushan.github.io/"
+email: "drmadhushan@gmail.com"
+
+markdown: kramdown
+permalink: pretty
+
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+  publications:
+    output: true
+    permalink: /publications/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: research
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: publication
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+plugins: []
+
+theme_color: "#12486B"
+accent_color: "#E8F1F8"
+secondary_color: "#0F3057"
+font_serif: "'Source Serif 4', 'Georgia', serif"
+font_sans: "'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif"
+
+social:
+  scholar: "https://scholar.google.com/"
+  github: "https://github.com/"
+  linkedin: "https://www.linkedin.com/"
+  cv: "/assets/cv.pdf"

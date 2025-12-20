@@ -1,6 +1,7 @@
 ---
 title: "Media Ethics Monitoring"
 priority: 2
+type: Project
 description: "AI-assisted Ethical Language Compliance using Large Language Models"
 keywords:
   - Python

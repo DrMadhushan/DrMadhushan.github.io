@@ -1,6 +1,7 @@
 ---
 title: "XAI in Early Risk Prediction"
 priority: 1
+type: Research
 description: "Explainable Predictive Pipeline for Project Risk Identification in DonorsChoose"
 keywords:
   - Explainable AI

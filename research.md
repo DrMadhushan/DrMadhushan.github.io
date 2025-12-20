@@ -9,7 +9,7 @@ permalink: /research/
   {% for project in projects %}
     {% assign state = project.status | downcase %}
     <div class="card {% if state == 'active' %}card-active{% endif %}">
-      <p class="eyebrow">Project</p>
+      <p class="eyebrow">{{ project.type }}</p>
       <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
       {% if project.affiliations %}
         <p class="meta">{{ project.affiliations | join: " · " }}</p>

@@ -9,8 +9,22 @@
   --border: #e5e7eb;
   --card: #ffffff;
   --link: {{ site.theme_color }};
-  --sidebar: #12486B;
-  --sidebar-text: #e2e8f0;
+  --sidebar-base: #0d1d30;
+  --sidebar-spot-a: rgba(15, 106, 223, 0.32);
+  --sidebar-spot-b: rgba(24, 194, 160, 0.28);
+  --sidebar-spot-c: rgba(52, 175, 255, 0.22);
+  --sidebar-spot-d: rgba(0, 122, 204, 0.18);
+  --sidebar-glass: rgba(255, 255, 255, 0.258);
+  --sidebar-border: rgba(255, 255, 255, 0.18);
+  --sidebar-highlight: rgba(255, 255, 255, 0.28);
+  --sidebar-blur: 0px; // keep gradient but drop costly blur for faster paint
+  --sidebar-shadow: 0 12px 32px rgba(5, 20, 40, 0.28);
+  --sidebar: radial-gradient(circle at 18% 22%, var(--sidebar-spot-a), transparent 32%),
+    radial-gradient(circle at 82% 18%, var(--sidebar-spot-b), transparent 30%),
+    radial-gradient(circle at 70% 78%, var(--sidebar-spot-c), transparent 26%),
+    radial-gradient(circle at 28% 72%, var(--sidebar-spot-d), transparent 24%),
+    var(--sidebar-base);
+  --sidebar-text: #f5f7fb;
   --accent: {{ site.accent_color | default: "#e8f1f8" }};
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
   --font-sans: {{ site.font_sans }};
@@ -57,6 +71,11 @@ a:focus-visible {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  border: 1px solid var(--sidebar-border);
+  box-shadow: var(--sidebar-shadow);
+  backdrop-filter: blur(var(--sidebar-blur));
+  -webkit-backdrop-filter: blur(var(--sidebar-blur));
+  overflow: hidden;
 }
 
 .sidebar a {
@@ -114,8 +133,8 @@ a:focus-visible {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0.75rem;
   border-radius: 0.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--sidebar-border);
+  background: var(--sidebar-glass);
   color: #ffffff;
   font-weight: 600;
   cursor: pointer;
@@ -143,19 +162,19 @@ a:focus-visible {
 
 .sidebar-nav .nav-link:hover,
 .sidebar-nav .nav-link:focus-visible {
-  border-color: rgba(255, 255, 255, 0.35);
+  border-color: var(--sidebar-border);
 }
 
 .sidebar-nav .nav-link.active {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.4);
+  background: var(--sidebar-glass);
+  border-color: var(--sidebar-highlight);
   color: #ffffff;
 }
 
 .contact {
   text-align: center;
   padding: 1rem 0 0.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid var(--sidebar-border);
 }
 
 .email {
@@ -175,7 +194,7 @@ a:focus-visible {
   align-items: center;
   padding: 0.45rem 0.75rem;
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  border: 1px solid var(--sidebar-border);
   color: var(--sidebar-text);
 }
 
@@ -218,8 +237,8 @@ a:focus-visible {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: var(--sidebar-glass);
+  border: 1px solid var(--sidebar-border);
   overflow: hidden;
 }
 

@@ -11,7 +11,7 @@ permalink: pretty
 collections:
   research:
     output: true
-    permalink: /research/:name/
+    permalink: /projects/:name/
   publications:
     output: true
     permalink: /publications/:name/

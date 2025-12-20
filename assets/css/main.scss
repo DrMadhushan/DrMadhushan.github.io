@@ -12,17 +12,21 @@
   --sidebar-base: #0d1d30;
   --sidebar-spot-a: rgba(15, 106, 223, 0.32);
   --sidebar-spot-b: rgba(24, 194, 160, 0.28);
-  --sidebar-spot-c: rgba(52, 175, 255, 0.22);
-  --sidebar-spot-d: rgba(0, 122, 204, 0.18);
+  --sidebar-spot-c: rgba(24, 194, 160, 0.28);
+  --sidebar-spot-d: rgba(15, 106, 223, 0.32);
+  --sidebar-spot-e: rgba(15, 106, 223, 0.32);
+  --sidebar-spot-f: rgba(24, 194, 160, 0.28);
   --sidebar-glass: rgba(255, 255, 255, 0.258);
   --sidebar-border: rgba(255, 255, 255, 0.18);
   --sidebar-highlight: rgba(255, 255, 255, 0.28);
   --sidebar-blur: 0px; // keep gradient but drop costly blur for faster paint
   --sidebar-shadow: 0 12px 32px rgba(5, 20, 40, 0.28);
-  --sidebar: radial-gradient(circle at 18% 22%, var(--sidebar-spot-a), transparent 32%),
-    radial-gradient(circle at 82% 18%, var(--sidebar-spot-b), transparent 30%),
-    radial-gradient(circle at 70% 78%, var(--sidebar-spot-c), transparent 26%),
-    radial-gradient(circle at 28% 72%, var(--sidebar-spot-d), transparent 24%),
+  --sidebar: radial-gradient(circle at 80% 25%, var(--sidebar-spot-a), transparent 32%),
+    radial-gradient(circle at 10% 15%, var(--sidebar-spot-b), transparent 30%),
+    radial-gradient(circle at 70% 40%, var(--sidebar-spot-c), transparent 36%),
+    radial-gradient(circle at 28% 65%, var(--sidebar-spot-d), transparent 28%),
+    radial-gradient(circle at 82% 90%, var(--sidebar-spot-e), transparent 32%),
+    radial-gradient(circle at 18% 70%, var(--sidebar-spot-f), transparent 30%),
     var(--sidebar-base);
   --sidebar-text: #f5f7fb;
   --accent: {{ site.accent_color | default: "#e8f1f8" }};

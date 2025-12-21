@@ -4,6 +4,7 @@ description: "Madhushan Ramalingam is a professional Computer Science researcher
 baseurl: ""
 url: "https://drmadhushan.github.io/"
 email: "drmadhushan@gmail.com"
+profile_img: "/assets/img/profile_latest.png"
 
 markdown: kramdown
 permalink: pretty

@@ -17,20 +17,24 @@
   </div>
 
   <div class="social">
-    <a href="{{ site.social.cv | relative_url }}" class="pill" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>CV</a>
-    <a href="{{ site.social.scholar }}" class="pill" target="_blank" rel="noopener"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>Scholar</a>
-    <a href="{{ site.social.github }}" class="pill" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a>
-    <a href="{{ site.social.linkedin }}" class="pill" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+    <a href="{{ site.social.cv | relative_url }}" class="pill" target="_blank" rel="noopener"><i
+        class="fa-solid fa-file-lines" aria-hidden="true"></i>CV</a>
+    <a href="{{ site.social.scholar }}" class="pill" target="_blank" rel="noopener"><i
+        class="fa-solid fa-graduation-cap" aria-hidden="true"></i>Scholar</a>
+    <a href="{{ site.social.github }}" class="pill" target="_blank" rel="noopener"><i class="fa-brands fa-github"
+        aria-hidden="true"></i>GitHub</a>
+    <a href="{{ site.social.linkedin }}" class="pill" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"
+        aria-hidden="true"></i>LinkedIn</a>
   </div>
 
   {% if site.data.affiliations %}
   <div class="affiliations">
-    <p class="affiliations-title">Affiliations</p>
+    <!-- <p class="affiliations-title">***</p> -->
     <div class="affiliation-logos">
       {% for org in site.data.affiliations %}
-        <a href="{{ org.url }}" target="_blank" rel="noopener" class="affiliation-logo" title="{{ org.name }}">
-          <img src="{{ org.logo | relative_url }}" alt="{{ org.name }} logo">
-        </a>
+      <a href="{{ org.url }}" target="_blank" rel="noopener" class="affiliation-logo" title="{{ org.name }}">
+        <img src="{{ org.logo | relative_url }}" alt="{{ org.name }} logo">
+      </a>
       {% endfor %}
     </div>
   </div>

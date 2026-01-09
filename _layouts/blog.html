@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="page page-stacked">
+  <header class="page-header">
+    <p class="eyebrow"><i class="fa-regular fa-bookmark" aria-hidden="true"></i> Blog</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.date %}
+      <p class="meta"><i class="fa-regular fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%d %B %Y" }}</p>
+    {% endif %}
+    {% if page.keywords %}
+      <p class="meta"><i class="fa-solid fa-tags" aria-hidden="true"></i> {{ page.keywords | join: " · " }}</p>
+    {% endif %}
+  </header>
+  <div class="page-content">
+    {{ content }}
+    {% if page.links %}
+      <div class="blog-links">
+        <p class="meta"><strong><i class="fa-solid fa-link" aria-hidden="true"></i> Published at:</strong></p>
+        <div class="chip-row">
+          {% for link in page.links %}
+            <a class="chip" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }} <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</article>

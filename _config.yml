@@ -16,6 +16,9 @@ collections:
   publications:
     output: true
     permalink: /publications/:name/
+  blogs:
+    output: true
+    permalink: /blogs/:name/
 
 defaults:
   - scope:
@@ -28,6 +31,11 @@ defaults:
       type: "publications"
     values:
       layout: publication
+  - scope:
+      path: ""
+      type: "blogs"
+    values:
+      layout: blog
   - scope:
       path: ""
     values:

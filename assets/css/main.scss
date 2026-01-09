@@ -352,6 +352,65 @@ a:focus-visible {
   width: 100%;
 }
 
+.blog-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  align-items: center;
+  margin: 0 0 1.4rem;
+}
+
+.search-input,
+.filter-select {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0.85rem;
+  border: 1px solid var(--border);
+  background: var(--card);
+  box-shadow: var(--shadow);
+  color: var(--muted);
+}
+
+.search-input input,
+.filter-select select {
+  border: none;
+  background: transparent;
+  font: inherit;
+  color: inherit;
+  min-width: 200px;
+  outline: none;
+}
+
+.filter-select select {
+  cursor: pointer;
+}
+
+.blog-card {
+  display: block;
+  color: inherit;
+}
+
+.blog-card[hidden] {
+  display: none;
+}
+
+.blog-card:hover,
+.blog-card:focus-visible {
+  text-decoration: none;
+  border-color: var(--link);
+  box-shadow: 0 12px 30px rgba(18, 72, 107, 0.12);
+}
+
+.blog-empty {
+  margin-bottom: 1rem;
+}
+
+.blog-links {
+  margin-top: 1.5rem;
+}
+
 .grid {
   display: grid;
   gap: 1rem;

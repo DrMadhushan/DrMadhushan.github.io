@@ -1,5 +1,5 @@
 ---
-title: "Media Ethics Monitoring"
+title: "AI-assisted Ethical Language Compliance using Large Language Models"
 priority: 2
 type: Project
 description: "AI-assisted Ethical Language Compliance using Large Language Models"
@@ -15,9 +15,9 @@ collaborators:
   - "Merl C"
   - "Sri Lanka Press Institute"
 status: "active"
-links:
-  - label: "GitHub"
-    url: "#"
+# links:
+#   - label: "GitHub"
+#     url: "#"
 ---
 
 Develop dashboard and editor tool integrated with RAG system for ethical journalism

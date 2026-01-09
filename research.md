@@ -17,7 +17,7 @@ permalink: /projects/
       {% if project.keywords %}
         <p class="keywords">{{ project.keywords | join: " · " }}</p>
       {% endif %}
-      <p>{{ project.description }}</p>
+      <!-- <p class="meta">{{ project.description }}</p> -->
       {% if project.collaborators %}
         <p class="meta"><strong>Collaborators:</strong> {{ project.collaborators | join: ", " }}</p>
       {% endif %}

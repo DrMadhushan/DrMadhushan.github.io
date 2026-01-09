@@ -64,6 +64,10 @@ a:focus-visible {
   min-height: 100vh;
 }
 
+.page.page-stacked {
+  flex-direction: column;
+}
+
 .sidebar {
   width: 320px;
   padding: 2.2rem 1.8rem;
@@ -336,6 +340,7 @@ a:focus-visible {
 
 .meta {
   color: var(--muted);
+  margin: 0;
 }
 
 .page-content {
@@ -353,7 +358,7 @@ a:focus-visible {
 }
 
 .card {
-  padding: 1rem 1.25rem;
+  padding: 0.7rem 1rem;
   border: 1px solid var(--border);
   border-radius: 0.9rem;
   background: var(--card);
@@ -374,6 +379,7 @@ a:focus-visible {
   color: var(--muted);
   font-size: 0.95rem;
   margin: 0.4rem 0;
+  font-style: italic;
 }
 
 .chip-row {

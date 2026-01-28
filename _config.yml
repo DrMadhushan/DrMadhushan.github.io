@@ -5,8 +5,15 @@ baseurl: ""
 url: "https://drmadhushan.github.io/"
 email: "drmadhushan@gmail.com"
 profile_img: "/assets/img/profile_latest.png"
+writeup_message: "This is a structured way of thinking out loud that helps me solidify concepts after reading or learning. Hope it helps you too!"
+# writeup_message: "This is a structured louder thinking which help me solidify concepts after I read or learn. Hope this helps you too!"
 
 markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  math_engine_opts: {}
+
 permalink: pretty
 
 collections:

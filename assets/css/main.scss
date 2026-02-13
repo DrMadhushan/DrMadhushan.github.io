@@ -524,3 +524,231 @@ a:focus-visible {
     display: none;
   }
 }
+
+/* ─── Network Visualization Page ─────────────────────────────────────────── */
+
+.network-page {
+  width: 100%;
+}
+
+.network-header {
+  margin-bottom: 1rem;
+}
+
+.network-header h1 {
+  margin: 0 0 0.25rem;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-family: var(--font-serif);
+}
+
+.network-subtitle {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.network-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.network-filters {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  box-shadow: var(--shadow);
+}
+
+.filter-btn:hover {
+  border-color: var(--link);
+  color: var(--link);
+}
+
+.filter-btn.active {
+  background: var(--link);
+  border-color: var(--link);
+  color: #ffffff;
+}
+
+.filter-btn i {
+  font-size: 0.85em;
+}
+
+.network-legend {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.legend-swatch {
+  display: inline-block;
+  width: 14px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+#network-graph {
+  width: 100%;
+  min-height: 560px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  cursor: grab;
+}
+
+#network-graph:active {
+  cursor: grabbing;
+}
+
+#network-graph svg {
+  display: block;
+}
+
+/* Floating tooltip card */
+.network-tooltip {
+  position: fixed;
+  z-index: 1000;
+  max-width: 320px;
+  padding: 1rem 1.15rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.9rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--text);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.network-tooltip.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.ntt-header {
+  margin-bottom: 0.4rem;
+}
+
+.ntt-name {
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: var(--font-serif);
+}
+
+.ntt-role {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.ntt-badges {
+  display: flex;
+  gap: 0.35rem;
+  margin-top: 0.3rem;
+}
+
+.ntt-badge {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.ntt-badge--academic {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.ntt-badge--professional {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.ntt-badge--rel {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.ntt-summary {
+  margin: 0.5rem 0 0;
+  color: var(--muted);
+}
+
+.ntt-collabs {
+  margin-top: 0.6rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.ntt-collabs-title {
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text);
+}
+
+.ntt-collabs ul {
+  margin: 0.25rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.ntt-collabs li {
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+/* Node label styling (applied via D3 inline, but fallback here) */
+.node-label {
+  font-family: var(--font-sans);
+}
+
+/* Responsive: network page */
+@media (max-width: 992px) {
+  .network-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #network-graph {
+    min-height: 400px;
+  }
+
+  .network-tooltip {
+    max-width: 260px;
+  }
+}
+

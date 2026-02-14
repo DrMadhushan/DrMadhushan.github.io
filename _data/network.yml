@@ -1,0 +1,106 @@
+# ──────────────────────────────────────────────────────────────
+# Network Visualization Data
+# ──────────────────────────────────────────────────────────────
+# center  – The central node (you)
+# people  – Everyone in your network
+#
+# Fields per person:
+#   id                 Unique slug (used internally)
+#   name               Display name
+#   category           academic | professional
+#   relationship_type  mentor | mentee | peer
+#   strength           1–5 (controls node size; 5 = strongest tie)
+#   avatar             Path to avatar image (place in /assets/img/network/avatars/)
+#   collaborations     List of project / paper names
+#   summary            ~30-word collaboration summary
+#   description        Longer free-text description (shown in tooltip)
+#   url                Optional link to profile / homepage
+# ──────────────────────────────────────────────────────────────
+
+center:
+  id: madhushan
+  name: "Madhushan Ramalingam"
+  role: "Data Science Researcher"
+  avatar: /assets/img/profile_latest.png
+
+people:
+  # ── Academic contacts ──────────────────────────────────────
+  - id: kasuna
+    name: "Dr. Kasun Amarasinghe"
+    category: academic
+    relationship_type: mentor
+    strength: 5
+    avatar: /assets/img/network/avatars/default_man.png
+    collaborations:
+      - "BSc Research supervision"
+      - "LLM evaluation research"
+    summary: "Academic co-supervisor guiding BSc research on explainable AI"
+    url: "https://www.linkedin.com/in/kasun-amarasinghe"
+
+  - id: damayanthi
+    name: "Dr. Damayanthi Herath"
+    category: academic
+    relationship_type: mentor
+    strength: 3
+    avatar: /assets/img/network/avatars/default_woman.png
+    collaborations:
+      - "Undergraduate final-year project supervision"
+      - "PeraCom seminar series"
+    summary: "Academic supervisor guiding BSc research on explainable AI"
+    description: "Academic mentor during B.Sc. at University of Peradeniya."
+    url: "https://www.damayanthiherath.net/"
+
+  - id: thanujan
+    name: "Thanujan Tharmapalan"
+    category: academic
+    relationship_type: peer
+    strength: 3
+    avatar: /assets/img/network/avatars/default_man.png
+    collaborations:
+      - "Joint research on XAI"
+      - "Independent projects"
+    summary: "Research collaborator co-authoring papers on disagreeement problem in posthoc XAI."
+    # description: "Fellow MSc candidate researching NLP for Sinhala text." misinformation detection in low-resource languages.
+    url: "https://lk.linkedin.com/in/tharmapalan-thanujan"
+
+  - id: ravisha
+    name: "Ravisha Rupasinghe"
+    category: academic
+    relationship_type: peer
+    strength: 1
+    avatar: /assets/img/network/avatars/default_woman.png
+    collaborations:
+      - "Joint research on XAI"
+    summary: "Research collaborator co-authoring papers on disagreeement problem in posthoc XAI."
+    # description: "Fellow MSc candidate researching NLP for Sinhala text." misinformation detection in low-resource languages.
+    url: "https://lk.linkedin.com/in/ravisha-rupasinghe"
+
+
+  # ── Professional contacts ──────────────────────────────────
+
+  - id: merl
+    name: "Merl Syrex Chandana"
+    category: professional
+    relationship_type: mentor
+    strength: 4
+    avatar: /assets/img/network/avatars/default_man.png
+    collaborations:
+      - "AI ethics monitoring platform"
+      - "LIRNEasia data policy"
+      - "AI for misinformation detection"
+    summary: "Research lead at LIRNEasia supervising AI ethics and data policy projects."
+    description: "Senior researcher providing guidance on responsible AI for public policy."
+    url: "https://lk.linkedin.com/in/merlchandana"
+
+  - id: hishan
+    name: "Hishan Indrajith"
+    category: professional
+    relationship_type: mentor
+    strength: 2
+    avatar: /assets/img/network/avatars/default_man.png
+    collaborations:
+      - "REST API migration project"
+      - "Code review mentorship"
+    summary: "Technical Lead at Enactor who guided SOAP-to-REST API modernization project."
+    description: "Senior engineer and team lead at Enactor Ltd."
+    url: "https://lk.linkedin.com/in/hishan-indrajith"

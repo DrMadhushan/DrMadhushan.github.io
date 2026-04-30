@@ -43,7 +43,7 @@ Inside these facilities, there are rows of server racks connected to storage sys
 
 For governments, such facilities are often sufficient to support e-government and public-sector digitization goals.
 
-<img src="assets/img/blogs/datacenter-blog.png" alt="AI-native Datacenter" style="width: 50%; height: auto;">
+<img src="/assets/img/blogs/datacenter-blog.png" alt="AI-native Datacenter" style="width: 90%; height: auto;">
 
 ## Why AI changes the infrastructure requirement
 Modern AI systems operate differently. Training and serving large AI models involves enormous volumes of matrix and vector calculations performed continuously and across many processors in parallel. For example, generating text from a large language model or processing real-time video in an AI system may require billions of arithmetic operations within seconds.

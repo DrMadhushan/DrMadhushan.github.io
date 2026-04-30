@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="icon" type="image/png" href="/assets/img/favicon_2.png" />
-<title>{{ site.title }}</title>
+<title>{{ page.title }}</title>
 <meta content="Madhushan Ramalingam" name="keywords" />
 <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines }}">
 
@@ -19,6 +19,8 @@
 {% if page.og_image %}
 <meta property="og:image" content="{{ page.og_image | relative_url }}">
 {% endif %}
+<meta property="og:description"
+  content="{{ page.description | default: site.description | strip_html | strip_newlines }}">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" integrity="sha384-XXXXX"
   crossorigin="anonymous">

@@ -3,6 +3,8 @@ title: "Why AI Changed What Governments Should Mean by 'Data Center'"
 date: 2026-04-29
 draft: false
 type: essay
+og_image: /assets/img/blogs/datacenter-blog.png
+description: "Understand why AI-native infrastructure requires a fundamental shift in government planning, focusing on the industrial-scale power requirements, advanced cooling challenges, and the long-term environmental trade-offs necessary for technological sovereignty."
 keywords:
   - Data center
   - Policy

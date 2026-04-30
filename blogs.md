@@ -1,12 +1,12 @@
 ---
 title: "Blogs"
 layout: page
-permalink: /blogs/
+permalink: /
 ---
 
 <header class="page-header">
-  <h1><i class="fa-regular fa-bookmark"></i> Blogs</h1>
-  <p class="meta">Notes, essays, and write-ups.</p>
+  <h2><i class="fa-regular fa-bookmark"></i> Blogs</h2>
+  <p class="meta">Notes, Blogs, and write-ups.</p>
 </header>
 
 <div class="blog-controls">
@@ -20,7 +20,7 @@ permalink: /blogs/
       <option value="">All keywords</option>
       {% assign all_keywords = "" | split: "" %}
       {% for post in site.blogs %}
-        {% if post.keywords %}
+        {% if post.keywords and post.draft != true %}
           {% for keyword in post.keywords %}
             {% assign all_keywords = all_keywords | push: keyword %}
           {% endfor %}

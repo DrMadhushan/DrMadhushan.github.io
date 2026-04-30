@@ -4,7 +4,9 @@ layout: page
 permalink: /experience/
 ---
 
-### Engineering & Research Experience
+<header class="page-header">
+  <h2><i class="fa-solid fa-brain"></i> Engineering & Research Experience</h2>
+</header>
 - **Data Science Researcher, LIRNEasia Research Lab**
     - AI/Ethics Monitoring & LLM Workflows: Led the design of an AI-assisted ethics monitor for journalists and developed LLM-based workflows and data pipelines to combat misinformation in low-resource languages.
     - Data Analysis & Policy: Conducted ML and statistical analysis on content virality patterns (e.g., on X) and formulated organizational policies for internal data management and technical research practices.

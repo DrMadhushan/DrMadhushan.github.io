@@ -4,6 +4,10 @@ layout: page
 permalink: /projects/
 ---
 
+<header class="page-header">
+  <h2><i class="fa-solid fa-compass-drafting"></i> Projects</h2>
+  <p class="meta">My research and other projects</p>
+</header>
 <div class="grid">
   {% assign projects = site.research | sort: 'priority' %}
   {% for project in projects %}

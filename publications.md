@@ -4,6 +4,11 @@ layout: page
 permalink: /publications/
 ---
 
+<header class="page-header">
+  <h2><i class="fa-regular fa-newspaper"></i> Publications</h2>
+  <p class="meta">Peer-reviewed publications, Workshops, and Pre-prints.</p>
+</header>
+
 <div class="grid">
   {% assign pubs = site.publications | sort: 'year' | reverse %}
   {% for pub in pubs %}

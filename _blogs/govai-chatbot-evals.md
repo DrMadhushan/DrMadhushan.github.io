@@ -9,6 +9,8 @@ keywords:
 links:
   - label: "Medium"
     url: "https://medium.com/@drmadhushan/ai-chatbot-for-government-information-services-an-ai-evals-perspective-0d444b21c467"
+  - label: "Substack"
+    url: "https://thinkmadly.substack.com/p/ai-chatbot-for-government-information"
   # - label: "Company Blog"
   #   url: "https://example.com/"
 ---
